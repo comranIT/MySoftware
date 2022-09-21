@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Run_Click') {
             steps {
-                bat 'python new_button.py'
+                bat 'python click.py'
             }
         }
         stage('Run_Welcome') {
             steps {
-                bat 'python new_screen.py'
+                bat 'python welcome.py'
             }
         }
     }
